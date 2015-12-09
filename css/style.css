@@ -1,13 +1,11 @@
 article, aside, figure, figcaption, footer, header, nav, section {
     display: block;
 }
-
 body {
     background-color: floralwhite;
     font-family: Arial, sans-serif;
     font-size: 1.3em;
 }
-
 header {
     color: rebeccapurple;
     font-family: Papyrus, fantasy;
@@ -15,21 +13,20 @@ header {
     text-align: center;
     padding: 20px;
 }
-
 #form {
     width: 50%;
     margin: auto;
 }
-
 label {
     padding: 10px;
 }
-
 input {
     line-height: 1.5em;
 }
-
 #weather {
     width: 80%;
     margin: auto;
 }   
+.hide {
+    display: none;
+}
